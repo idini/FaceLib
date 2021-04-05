@@ -17,14 +17,14 @@
 ## Installation
 - Clone and install with this command:
     - with pip and automatic installs everything all you need
-      - `pip install git+https://github.com/sajjjadayobi/FaceLib.git`
+      - `pip install git+https://github.com/idini/FaceLib.git`
     
     - or with cloning the repo and install required packages 
-      - `git clone https://github.com/sajjjadayobi/FaceLib.git`
-- you can see the required packages in [requirements.txt](https://github.com/sajjjadayobi/FaceLib/blob/master/requirements.txt)
+      - `git clone https://github.com/idini/FaceLib.git`
+- you can see the required packages in [requirements.txt](https://github.com/idini/FaceLib/blob/master/requirements.txt)
 
 ## How to use:
-  - the simplest way is at [example_notebook.ipynb](https://github.com/sajjjadayobi/FaceLib/blob/master/example_notebook.ipynb)
+  - the simplest way is at [example_notebook.ipynb](https://github.com/idini/FaceLib/blob/master/example_notebook.ipynb)
   - for low-level usage check out the following sections
   - if you have an NVIDIA GPU don't change the device param if not use `cpu`
  
@@ -49,7 +49,7 @@
 ```
 
   
- - you can check or change it [Face Detector](https://github.com/sajjjadayobi/FaceLib/tree/master/facelib/Retinaface)
+ - you can check or change it [Face Detector](https://github.com/idini/FaceLib/tree/master/facelib/Retinaface)
 
 #### WiderFace Validation Performance on a single scale When using Mobilenet for backbone
 | Style | easy | medium | hard |
@@ -75,7 +75,7 @@
 
 Original | Aligned & Resized | Original | Aligned & Resized |
 |---|---|---|---|
-|![image](https://github.com/sajjjadayobi/FaceLib/blob/master/facelib/imgs/input1.jpg)|![image](https://github.com/sajjjadayobi/FaceLib/blob/master/facelib/imgs/res1.jpg)|![image](https://github.com/sajjjadayobi/FaceLib/blob/master/facelib/imgs/input2.jpg)|![image](https://github.com/sajjjadayobi/FaceLib/blob/master/facelib/imgs/res2.jpg)|
+|![image](https://github.com/idini/FaceLib/blob/master/facelib/imgs/input1.jpg)|![image](https://github.com/idini/FaceLib/blob/master/facelib/imgs/res1.jpg)|![image](https://github.com/idini/FaceLib/blob/master/facelib/imgs/input2.jpg)|![image](https://github.com/idini/FaceLib/blob/master/facelib/imgs/res2.jpg)|
 
 
 ## 3. Age & Gender Estimation:
@@ -127,7 +127,7 @@ Original | Aligned & Resized | Original | Aligned & Resized |
 
 - on my Webcam 🙂
 
-![Alt Text](https://github.com/sajjjadayobi/FaceLib/blob/master/facelib/imgs/emotion.gif)
+![Alt Text](https://github.com/idini/FaceLib/blob/master/facelib/imgs/emotion.gif)
 
 ## 5. Face Recognition: InsightFace
 - This module is a reimplementation of Arcface(paper), or Insightface(Github)
