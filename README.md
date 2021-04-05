@@ -1,7 +1,8 @@
 # [FaceLib](https://github.com/sajjjadayobi/FaceLib):
 - use for Detection, Facial Expression, Age & Gender Estimation and  Recognition with PyTorch
 - this repository works with CPU and GPU(Cuda)
-- please refer authors -> https://github.com/sajjjadayobi/FaceLib
+
+Authors -> https://github.com/sajjjadayobi/FaceLib
 
 ## New Version: 
   - add some new features
